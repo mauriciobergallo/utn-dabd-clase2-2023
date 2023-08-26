@@ -1,0 +1,13 @@
+<div style="border: 1px solid;">
+    <ul>
+        <li>Preguntar: <input type="text" [value]="pregunta" 
+            (input)="onPregunta($event)"  />
+            <button (click)="hacerPregunta()">??</button>
+        </li>
+    </ul>
+    <br />
+    <br />
+    <ul>
+        <li>Respuesta: {{ respuestaDePadre }}</li>
+    </ul>
+</div>

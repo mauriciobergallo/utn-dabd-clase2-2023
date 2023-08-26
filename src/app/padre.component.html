@@ -1,0 +1,6 @@
+<p>Soy Padre</p>
+<ul>
+    <li>Pregunta hecha: {{ preguntaHechaPorHijo }}</li>
+</ul>
+<sa-hijo [respuestaDePadre]="respuestaParaHijo" 
+    (preguntaParaPadre)="onReponder($event)"></sa-hijo>
